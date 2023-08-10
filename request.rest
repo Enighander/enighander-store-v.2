@@ -1,0 +1,14 @@
+POST http://localhost:8000/api/products
+Content-Type:  application/json
+
+    {
+        "id": "40",
+        "name": "NYK G-7000 Gaming Mousepad",
+        "discription": "asdfsadfe@gmail.com",
+        "price": 145000,
+        "image": "gambar10",
+        "category":"4",
+        "color":"Black"
+    }
+
+
