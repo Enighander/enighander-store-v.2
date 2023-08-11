@@ -6,6 +6,8 @@ module.exports = app => {
 
     router.post("/", products.create);
 
+    router.put("/:id", products.update);
+
     app.use('/api/products', router);
 };
 
